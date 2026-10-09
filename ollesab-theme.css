@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+
+/*
+  ThemeBuilder export: ollesab-theme
+  Google Fonts: Montserrat för rubriker, Open Sans för brödtext.
+  Färgharmoni: analogous, spridning 91%.
+  Färgvärden exporteras som oklch.
+  Lägg data-theme="dark" eller data-theme="light" på html/body för att låsa läge.
+  Utan data-theme följer temat användarens systeminställning.
+*/
+
+:root {
+  --color-scheme: light;
+  --bg: oklch(97.73% 0.0025 165.08);
+  --surface: oklch(100% 0 89.88);
+  --surface-muted: oklch(97.13% 0.0025 165.08);
+  --text: oklch(31.92% 0.0347 155.43);
+  --muted: oklch(55.47% 0.0498 156.47);
+  --border: oklch(91.24% 0.0092 161.34);
+  --primary: oklch(44.79% 0.1083 151.33);
+  --primary-hover: oklch(35.62% 0.0829 151.71);
+  --primary-contrast: oklch(100% 0 89.88);
+  --accent: oklch(57.25% 0.1181 76.49);
+  --accent-contrast: oklch(100% 0 89.88);
+  --secondary: oklch(44.49% 0.1331 142.33);
+  --tertiary: oklch(45.67% 0.0774 176.7);
+  --success: oklch(52.73% 0.1371 150.07);
+  --warning: oklch(55.38% 0.1207 66.44);
+  --danger: oklch(51.43% 0.1978 16.93);
+  --shadow: 0 18px 48px rgba(15, 23, 42, 0.14);
+  --radius-sm: 0px;
+  --radius-md: 4px;
+  --radius-lg: 12px;
+  --font-body: "Open Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+[data-theme="dark"] {
+  --color-scheme: dark;
+  --bg: oklch(25.68% 0.018 158.51);
+  --surface: oklch(31.52% 0.0276 156.99);
+  --surface-muted: oklch(36.64% 0.0318 156.74);
+  --text: oklch(91.11% 0.0067 160.06);
+  --muted: oklch(77.47% 0.0208 159.6);
+  --border: oklch(38.79% 0.0334 156.02);
+  --primary: oklch(66.72% 0.1677 150.85);
+  --primary-hover: oklch(74.7% 0.1892 150.74);
+  --primary-contrast: oklch(20.93% 0.0323 262.41);
+  --accent: oklch(69.3% 0.1437 76.38);
+  --accent-contrast: oklch(20.93% 0.0323 262.41);
+  --secondary: oklch(66.25% 0.2052 142.37);
+  --tertiary: oklch(68.04% 0.1193 175.6);
+  --success: oklch(80.03% 0.1821 151.71);
+  --warning: oklch(86.06% 0.1731 91.94);
+  --danger: oklch(71.92% 0.169 13.43);
+  --shadow: 0 18px 52px rgba(0, 0, 0, 0.36);
+  --radius-sm: 0px;
+  --radius-md: 4px;
+  --radius-lg: 12px;
+  --font-body: "Open Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+[data-theme="light"] {
+  --color-scheme: light;
+  --bg: oklch(97.73% 0.0025 165.08);
+  --surface: oklch(100% 0 89.88);
+  --surface-muted: oklch(97.13% 0.0025 165.08);
+  --text: oklch(31.92% 0.0347 155.43);
+  --muted: oklch(55.47% 0.0498 156.47);
+  --border: oklch(91.24% 0.0092 161.34);
+  --primary: oklch(44.79% 0.1083 151.33);
+  --primary-hover: oklch(35.62% 0.0829 151.71);
+  --primary-contrast: oklch(100% 0 89.88);
+  --accent: oklch(57.25% 0.1181 76.49);
+  --accent-contrast: oklch(100% 0 89.88);
+  --secondary: oklch(44.49% 0.1331 142.33);
+  --tertiary: oklch(45.67% 0.0774 176.7);
+  --success: oklch(52.73% 0.1371 150.07);
+  --warning: oklch(55.38% 0.1207 66.44);
+  --danger: oklch(51.43% 0.1978 16.93);
+  --shadow: 0 18px 48px rgba(15, 23, 42, 0.14);
+  --radius-sm: 0px;
+  --radius-md: 4px;
+  --radius-lg: 12px;
+  --font-body: "Open Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-scheme: dark;
+    --bg: oklch(25.68% 0.018 158.51);
+    --surface: oklch(31.52% 0.0276 156.99);
+    --surface-muted: oklch(36.64% 0.0318 156.74);
+    --text: oklch(91.11% 0.0067 160.06);
+    --muted: oklch(77.47% 0.0208 159.6);
+    --border: oklch(38.79% 0.0334 156.02);
+    --primary: oklch(66.72% 0.1677 150.85);
+    --primary-hover: oklch(74.7% 0.1892 150.74);
+    --primary-contrast: oklch(20.93% 0.0323 262.41);
+    --accent: oklch(69.3% 0.1437 76.38);
+    --accent-contrast: oklch(20.93% 0.0323 262.41);
+    --secondary: oklch(66.25% 0.2052 142.37);
+    --tertiary: oklch(68.04% 0.1193 175.6);
+    --success: oklch(80.03% 0.1821 151.71);
+    --warning: oklch(86.06% 0.1731 91.94);
+    --danger: oklch(71.92% 0.169 13.43);
+    --shadow: 0 18px 52px rgba(0, 0, 0, 0.36);
+    --radius-sm: 0px;
+    --radius-md: 4px;
+    --radius-lg: 12px;
+    --font-body: "Open Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-heading: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+}
+
+html,
+body {
+  color-scheme: var(--color-scheme);
+}
+
+body {
+  color: var(--text);
+  background: var(--bg);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text);
+  font-family: var(--font-heading);
+}
+
+a {
+  color: var(--primary);
+}
+
+
+.theme-button,
+button.theme-button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: var(--radius-md);
+  padding: 0 1rem;
+  color: var(--primary-contrast);
+  background: var(--primary);
+  box-shadow: var(--shadow);
+  font: 700 1rem/1 var(--font-body);
+}
+
+.theme-button:hover {
+  background: var(--primary-hover);
+}
+
+.theme-button.secondary {
+  color: var(--text);
+  background: var(--surface);
+  border-color: var(--border);
+  box-shadow: none;
+}
+
+.theme-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  color: var(--text);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.theme-field {
+  display: grid;
+  gap: 0.45rem;
+  color: var(--muted);
+  font: 700 0.875rem/1.3 var(--font-body);
+}
+
+.theme-field input,
+.theme-field select,
+.theme-field textarea {
+  min-height: 44px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.65rem 0.8rem;
+  color: var(--text);
+  background: var(--surface);
+  font: 400 1rem/1.4 var(--font-body);
+}
+
+.theme-field input:focus,
+.theme-field select:focus,
+.theme-field textarea:focus {
+  outline: 3px solid color-mix(in srgb, var(--primary), transparent 76%);
+  border-color: var(--primary);
+}
