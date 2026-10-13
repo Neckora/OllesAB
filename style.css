@@ -13,7 +13,6 @@
 }
 
 .olles{
-
     position:absolute;
     top:calc(var(--size) / 80);
     height:calc(var(--size) / 8);
@@ -65,6 +64,7 @@
 
 body{
     min-height: 100dvh;
+    min-width: 100dvh;
     display: flex;
     flex-direction: column;
     color:var( --text);
@@ -79,9 +79,14 @@ header{
     padding-top: 1rem;
 }
 .place{
-    order: 2;
     margin-top: 0.5rem;
-    margin-right: 16.5%;
+    position:absolute;
+    top:0px;
+    right:calc(var(--size) + 2rem);
+}
+
+.space{
+    flex-grow: 3;
 }
 nav,footer{
     padding-left: 1rem;
