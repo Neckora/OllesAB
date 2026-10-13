@@ -139,7 +139,9 @@ h6 {
 a {
   color: var(--primary);
 }
-
+a:hover {
+  --transition: ;
+}
 
 .theme-button,
 button.theme-button {

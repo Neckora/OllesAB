@@ -9,7 +9,9 @@
 </head>
 <body>
 <?php require_once("_head-nav.php"); ?>
- 
-<?php require_once("footer.php"); ?>
+    <main>
+        
+    </main>
+<?php require_once("_footer.php"); ?>
 </body>
 </html>
