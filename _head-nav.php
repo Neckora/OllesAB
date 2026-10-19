@@ -17,9 +17,8 @@
 </header>
 <nav>
     <ld-theme-toggle></ld-theme-toggle>
-    <a href="index.php">Hem</a>
-    <a href="miljöpolicy.php">Miljöpolicy</a>
-    <a href="ai-start.php">AI strategi</a>
-    <a href="kontakt.php">Kontakt</a>
+    <a class="theme-button" href="index.php">Hem</a>
+    <a class="theme-button" href="miljöpolicy.php">Miljöpolicy</a>
+    <a class="theme-button" href="ai-start.php">AI strategi</a>
 </nav>
 </html>
