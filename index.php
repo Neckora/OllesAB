@@ -25,9 +25,15 @@
                 </p>
             </article>
             <article>
-                <h3>Vår vission</h3>
+                <h3>Vår vision</h3>
                 <p>
                     Vår vision är att skapa en framtid där AI genomsyrar vårt sätt att tänka, arbeta och utvecklas. På OllesAB ser vi en enorm potential i samspelet mellan mänsklig kreativitet och artificiell intelligens, där nya möjligheter ständigt öppnar dörrar till ännu fler möjligheter. Genom att omfamna AI-acceleration vill vi bidra till ett mer dynamiskt och framåtblickande arbetssätt, där utveckling aldrig riktigt står still. Vi tror på kraften i att tänka stort, utforska brett och kontinuerligt blicka framåt. För oss är AI inte bara en del av framtiden – det är framtiden, i ständig acceleration.
+                </p>
+            </article>
+            <article>
+                <h3>Vem är Olle</h3>
+                <p>
+                    Glen, VD för OllesAB, har länge varit en central del av företagets vision och strategiska utveckling. Med ett framåtblickande perspektiv och ett starkt engagemang för innovation har Glen bidragit till att forma företagets syn på framtida möjligheter. Det sägs att Glen en gång förutsåg en hel branschförändring flera år innan den blev aktuell, även om detaljerna kring händelsen fortfarande är föremål för diskussion. På OllesAB handlar ledarskap om att se samband, tänka långsiktigt och förstå hur olika delar samverkar i ett större sammanhang.
                 </p>
             </article>
         </section>

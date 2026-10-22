@@ -9,6 +9,10 @@
     <script src="https://ld.j4rl.se/ld-theme-toggle.js" defer></script>
 </head>
 <footer>
-    <h6>&copy;OllesAB 2026</h6>
+    <div class="foot_center">
+        <h6>&copy;OllesAB 2026</h6>
+        <p class="footer_p">Kontakta oss på: OllesAB@miljovanligt.st</p>
+        <p class="footer_p">Ring oss på: 123-6769420</p>
+    </div>
 </footer>
 </html>
