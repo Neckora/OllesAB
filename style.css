@@ -173,14 +173,25 @@ p{
 .footer_p{
     font-size: 1rem;
 }
+.miljoimg{
+    display: grid;
+    place-content: center;
+}
 .miljo{
     height:60dvh;
 }
 .center2{
     display: flex;
     flex-direction: row;
+    padding: 2rem;
 }
-
+.cen{
+    display: grid;
+    place-content: center;
+}
+p{
+    font-size: 1.4rem;
+}
 @media screen and (max-width:1200px){
   .center{
     display: flex;
@@ -190,6 +201,9 @@ p{
 @media screen and (min-width:1200px){
   .center{
     grid-template-columns:repeat(2, 1fr);
+  }
+  .flow{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media screen and (min-width:1600px){
